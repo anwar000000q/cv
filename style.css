@@ -440,6 +440,7 @@ footer {
   }
   .date_experince {
     padding: 0px;
+    width: 14%;
   }
   .text_experinece p {
     font-size: 15px;
@@ -450,5 +451,36 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .text_title h3 {
+    font-size: 14px;
+  }
+  footer {
+    justify-content: space-around;
+  }
+  .whatssap_button {
+    padding: 2px 5px;
+  }
+  .logo_whatssap {
+    width: 100px;
+  }
+  .call {
+    padding: 2px 8px;
+    font-size: 18px;
+  }
+  .call span {
+    padding: 0px 10px;
+  }
+  .call_logo {
+    width: 30px;
+    height: 30px;
+  }
+  .title_part2 h3 {
+    font-size: 40px;
+  }
+  .ex_1 {
+    width: 16%;
   }
 }
